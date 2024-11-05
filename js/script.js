@@ -20,8 +20,7 @@ empForm.addEventListener('submit', (e) => {
     let empDept = e.target.department.value
 
     // INSERT A NEW ROW AT THE END OF THE EMPLOYEES TABLE
-    let table = document.querySelector('#employees')
-    let newRow = table.insertRow()
+    let newRow = empTable.insertRow()
 
     // INSERT A CELL FOR EACH ITEM WITHIN THE NEW ROW
     let c1 = newRow.insertCell()
